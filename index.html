@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raflix</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" />
+    <link rel="icon" type="image/gif" href="/image/R.gif">
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="header__h1">
+        <a href="#" title="Raflix" class="header__a">
+          <svg
+          class="header__img"
+            xmlns="http://www.w3.org/2000/svg"
+            xml:space="preserve"
+            width="103mm"
+            height="42mm"
+            version="1.1"
+            style="
+              shape-rendering: geometricPrecision;
+              text-rendering: geometricPrecision;
+              image-rendering: optimizeQuality;
+              fill-rule: evenodd;
+              clip-rule: evenodd;
+            "
+            viewBox="0 0 10300 4200"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <g id="Capa_x0020_1">
+              <metadata id="CorelCorpID_0Corel-Layer" />
+              <path
+                class="fil0"
+                d="M438 574c256,0 513,0 770,0 268,0 464,60 587,177 122,117 184,296 184,539 0,64 0,128 0,191 0,323 -114,534 -340,633 0,3 0,6 0,9 126,28 215,96 267,203 52,107 78,252 78,436 0,182 0,365 0,547 0,89 3,161 10,215 6,54 22,107 47,157 -177,19 -354,40 -530,61 -18,-49 -31,-95 -38,-140 -6,-45 -10,-126 -10,-244 0,-193 0,-387 0,-581 0,-145 -24,-244 -73,-299 -48,-54 -133,-77 -253,-68 -61,4 -120,9 -180,14 0,231 0,463 0,694 0,231 0,463 0,694 -174,24 -347,48 -520,72 0,-552 0,-1104 0,-1655 0,-552 0,-1104 0,-1656zm709 1378c103,-6 181,-36 233,-90 52,-54 78,-141 78,-262 0,-82 0,-163 0,-245 0,-115 -21,-197 -64,-248 -42,-51 -110,-75 -201,-74 -79,1 -158,3 -237,4 0,155 0,309 0,463 0,154 0,308 0,463 63,-4 126,-7 190,-11zm1598 -1378c234,0 469,0 705,0 90,497 179,991 269,1483 90,491 179,980 270,1467 -174,10 -347,21 -520,32 -32,-195 -64,-391 -94,-586 0,3 0,6 0,8 -198,12 -395,25 -592,38 -32,200 -64,401 -94,602 -161,15 -322,30 -482,46 90,-522 179,-1042 269,-1558 89,-514 179,-1024 270,-1533zm568 2001c-40,-245 -78,-490 -117,-736 -39,-246 -77,-493 -116,-741 -3,0 -6,0 -9,0 -39,249 -77,499 -115,748 -38,250 -75,502 -113,753 156,-9 312,-17 468,-25zm927 -2001c458,0 917,0 1376,0 0,139 0,277 0,416 -285,0 -571,0 -856,1 0,136 0,271 0,407 0,135 0,271 0,406 224,-2 447,-4 672,-4 0,138 0,277 0,416 -225,1 -448,2 -672,5 0,213 0,424 0,636 0,212 0,424 0,636 -174,5 -347,12 -520,19 0,-489 0,-979 0,-1469 0,-490 0,-980 0,-1470zm1626 0c174,0 347,0 521,0 0,419 0,838 0,1256 0,418 0,837 0,1256 285,12 571,27 856,44 0,142 0,284 0,426 -459,-31 -918,-54 -1376,-69 0,-485 0,-971 0,-1456 0,-485 0,-971 0,-1457zm1627 0c174,0 347,0 521,0 0,509 0,1018 0,1526 0,509 0,1017 0,1525 -174,-17 -347,-34 -521,-49 0,-500 0,-1001 0,-1501 0,-500 0,-1001 0,-1501zm1367 1538c-95,-261 -192,-520 -286,-777 -94,-255 -191,-509 -285,-761 182,0 365,0 548,0 58,170 117,340 174,512 58,172 117,345 175,518 3,0 6,0 10,0 60,-170 120,-340 179,-511 60,-172 120,-345 180,-519 164,0 328,0 492,0 -95,269 -190,535 -286,799 -95,261 -191,521 -286,778 100,283 201,569 301,856 101,290 201,583 301,878 -183,-26 -366,-52 -549,-76 -64,-196 -127,-391 -190,-585 -63,-193 -125,-385 -188,-575 -4,0 -7,-1 -10,-1 -65,179 -129,357 -194,534 -64,176 -129,352 -194,526 -165,-20 -329,-38 -493,-57 99,-252 201,-505 300,-761 100,-257 201,-517 301,-778z"
+              />
+            </g>
+          -</svg>
+        </a>
+      </h1>
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li class="header__li select">
+            <span class="select__span"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="select__globe" viewBox="0 0 16 16">
+              <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+            </svg>Español</span>
+            <ul class="select__ul">
+              <li class="select__li">
+                <a class="select__a" href="#" title="Español">Español</a>
+              </li>
+              <li class="select__li">
+                <a class="select__a" href="#" title="English">English</a>
+              </li>
+            </ul>
+          </li>
+          <li class="header__li">
+            <a
+              href="https://www.netflix.com/es/login"
+              class="header__login"
+              title="Iniciar sesion"
+            >
+              Iniciar sesión</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <article class="landing">
+        <h2 class="landing__h2">
+          Todas las películas y series que desees, y mucho más.
+        </h2>
+        <h3 class="landing__h3">
+          Disfruta donde quieras. Cancela cuando quieras.
+        </h3>
+        <p class="landing__p" class="">
+          ¿Quieres ver algo ya? Escribe tu dirección de correo para crear una
+          suscripción a Raflix o reactivarla.
+        </p>
+        <form action="#" class="landing__form">
+          <input class="landing__input" type="email" name="email" placeholder="Dirección de correo"/>
+          <input class="landing__submit" type="submit" value="Empezar" />
+        </form>
+      </article>
+
+      <article class="specs">
+        <div class="specs__center">
+          <div class="specs__col">
+            <h4 class="specs__h4">Disfruta de Raflix en tu TV.</h4>
+            <p class="specs__p">
+              Smart TV, Playstation, Xbox, Chromecast, Apple TV, reproductores
+              Blu-ray y muchos más.
+            </p>
+          </div>
+          <div class="specs__col">
+            <image src="/image/tv.png" class="specs__img"></image>
+            <video src="./image/video-tv-0819.m4v" muted autoplay class="specs__video specs__video--1"></video>
+          
+          </div>
+        </div>
+      </article>
+
+      <article class="specs inverso">
+        <div class="specs__center">
+          <div class="specs__col">
+            <h4 class="specs__h4">
+              Descárgate tus series favoritas para verlas sin conexión.
+            </h4>
+            <p class="specs__p">
+              Guarda tus títulos favoritos fácilmente para que siempre tengas
+              algo para ver.
+            </p>
+          </div>
+          <div class="specs__col">
+            <image src="image/specs2.jpg" class="img"></image>
+          </div>
+        </div>
+      </article>
+
+      <article class="specs">
+        <div class="specs__center">
+          <div class="specs__col">
+            <h4 class="specs__h4">Disfruta en todas partes.</h4>
+            <p class="specs__p">
+              Reproduce en streaming todas las películas y series en tu móvil,
+              tableta, ordenador y TV sin pagar más.
+            </p>
+          </div>
+          <div class="specs__col">
+            <image src="/image/mac.png" class="specs__img"></image>
+            <video src="./image/video-devices.m4v" muted autoplay class="specs__video specs__video--2"></video>
+          </div>
+        </div>
+      </article>
+
+      <article class="specs inverso">
+        <div class="specs__center">
+          <div class="specs__col">
+            <h4 class="specs__h4">Crea perfiles infantiles.</h4>
+            <p class="specs__p">
+              Deja que los niños vivan aventuras con sus personajes favoritos en
+              un espacio diseñado exclusivamente para ellos, gratis con tu
+              suscripción.
+            </p>
+          </div>
+          <div class="specs__col">
+            <image src="./image/specs4.png" class="img"></image>
+          </div>
+        </div>
+      </article>
+
+      <div class="faq">
+        <div class="faq__center">
+          <h3 class="faq__h3">Preguntas frecuentes</h3>
+          <ul class="faq__ul">
+            <li class="faq__li">
+              <div class="faq__btn">
+                <span class="faq__span">¿Qué es Raflix?</span>
+                <svg
+                  class="faq__svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </div>
+              <div class="faq__info">
+                <p class="faq__p">
+                  Raflix es un servicio de streaming que ofrece una amplia
+                  variedad de series, películas, títulos de anime, documentales
+                  y otros contenidos premiados en miles de dispositivos
+                  conectados a internet.<br /><br />
+                  Puedes ver todo el contenido que quieras, cuando quieras y sin
+                  un solo anuncio por una tarifa mensual reducida. ¡Siempre hay
+                  algo nuevo que descubrir, y cada semana se añaden nuevas
+                  series y películas!
+                </p>
+              </div>
+            </li>
+            <li class="faq__li">
+              <div class="faq__btn">
+                <span class="faq__span">¿Cúanto cuesta Raflix?</span>
+                <svg
+                  class="faq__svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </div>
+              <div class="faq__info">
+                <p class="faq__p">
+                  Disfruta de Raflix en tu smartphone, tableta, Smart TV,
+                  ordenador o dispositivo de streaming, todo por una tarifa
+                  mensual fija. Planes desde 7,99 € a 17,99 € al mes. Sin cargos
+                  adicionales ni contratos.
+                </p>
+              </div>
+            </li>
+            <li class="faq__li">
+              <div class="faq__btn">
+                <span class="faq__span">¿Dónde puedo ver Raflix?</span>
+                <svg
+                  class="faq__svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </div>
+              <div class="faq__info">
+                <p class="faq__p">
+                  Disfruta donde quieras y cuando quieras. Inicia sesión con tu
+                  cuenta de Raflix para disfrutar al instante de todo el
+                  contenido de raflix.com desde tu ordenador personal o en
+                  cualquier dispositivo conectado a internet que ofrezca la
+                  aplicación de Raflix, entre ellos, smart TV, smartphones,
+                  tabletas, reproductores multimedia de streaming y consolas de
+                  juegos.<br /><br />También puedes descargar tus series
+                  favoritas con la aplicación de iOS, Android o Windows 10.
+                  Utiliza las descargas para ver títulos dondequiera que vayas y
+                  cuando no dispongas de conexión a internet. Raflix siempre te
+                  acompaña.
+                </p>
+              </div>
+            </li>
+            <li class="faq__li">
+              <div class="faq__btn">
+                <span class="faq__span">¿Cómo cancelo?</span>
+                <svg
+                  class="faq__svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </div>
+              <div class="faq__info">
+                <p class="faq__p">
+                  Raflix es flexible. Sin contratos liosos ni compromisos.
+                  Puedes cancelar fácilmente tu cuenta en línea con tan solo dos
+                  clics. Sin cargos por cancelación: activa o cancela tu cuenta
+                  en cualquier momento.
+                </p>
+              </div>
+            </li>
+            <li class="faq__li">
+              <div class="faq__btn">
+                <span class="faq__span">¿Qué puedo ver en Raflix?</span>
+                <svg
+                  class="faq__svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </div>
+              <div class="faq__info">
+                <p class="faq__p">
+                  Raflix dispone de una amplia biblioteca de originales de
+                  Raflix galardonados, títulos de anime, series de TV,
+                  documentales, largometrajes y otros contenidos. Ve todo el
+                  contenido que quieras, cuando quieras.
+                </p>
+              </div>
+            </li>
+            <li class="faq__li">
+              <div class="faq__btn">
+                <span class="faq__span">¿Es Raflix bueno para niños?</span>
+                <svg
+                  class="faq__svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </div>
+              <div class="faq__info">
+                <p class="faq__p">
+                  La experiencia infantil de Raflix se incluye en la suscripción
+                  para que los padres tengan el control mientras los niños
+                  disfrutan de series y películas familiares en su propio
+                  espacio.
+                </p>
+                <p class="faq__p">
+                  Los perfiles infantiles incluyen controles parentales
+                  protegidos por PIN que te permiten restringir la calificación
+                  por edades del contenido que pueden ver los niños y bloquear
+                  determinados títulos que no quieras que vean.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="register">
+        <p class="register__p">
+          ¿Quieres ver algo ya? Escribe tu dirección de correo para crear una
+          suscripción a Raflix o reactivarla.
+        </p>
+        <form class="register__form" action="#">
+          <input
+            class="register__input"
+            type="email"
+            placeholder="Direcccion de  correo"
+          />
+          <input class="register__submit" type="submit" value="Empezar" />
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__center">
+        <div class="footer__fila">
+          <p class="footer__p">¿Preguntas? Llama al 900 822 376</p>
+        </div>
+        <div class="footer__fila">
+          <ul class="footer__ul">
+            <li class="footer__li">
+              <a
+                href="https://help.netflix.com/es-es/node/412"
+                class="footer__a"
+                title="Preguntas frecuentes"
+                >Preguntas frecuentes</a
+              >
+            </li>
+            <li class="footer__li">
+              <a
+                href="https://ir.netflix.net/ir-overview/profile/default.aspx"
+                class="footer__a"
+                title="Inversores"
+                >Inversores</a
+              >
+            </li>
+            <li class="footer__li">
+              <a
+                href="https://devices.netflix.com/es/"
+                class="footer__a"
+                title="Formas de ver"
+                >Formas de ver</a
+              >
+            </li>
+            <li class="footer__li">
+              <a
+                href="https://help.netflix.com/legal/corpinfo"
+                class="footer__a"
+                title="Información corporativa"
+                >Información corporativa</a
+              >
+            </li>
+            <li class="footer__li">
+              <a
+                href="https://help.netflix.com/legal/notices"
+                class="footer__a"
+                title="Avisos legales"
+                >Avisos legales</a
+              >
+            </li>
+          </ul>
+          <ul class="footer__ul">
+            <li class="footer__li">
+              <a
+                href="https://help.netflix.com/es-es/"
+                class="footer__a"
+                title="Centro de ayuda"
+                >Centro de ayuda</a
+              >
+            </li>
+            <li class="footer__li">
+              <a
+                href="https://jobs.netflix.com/"
+                class="footer__a"
+                title="Empleo"
+                >Empleo</a
+              >
+            </li>
+            <li class="footer__li">
+              <a
+                href="https://help.netflix.com/legal/termsofuse"
+                class="footer__a"
+                title="Términos de uso"
+                >Términos de uso</a
+              >
+            </li>
+            <li class="footer__li">
+              <a
+                href="https://help.netflix.com/es-es/contactus"
+                class="footer__a"
+                title="Contáctanos"
+                >Contáctanos</a
+              >
+            </li>
+            <li class="footer__li">
+              <a
+                href="https://www.netflix.com/es/browse/genre/839338"
+                class="footer__a"
+                title="Solo en Raflix"
+                >Solo en Raflix</a
+              >
+            </li>
+          </ul>
+          <ul class="footer__ul">
+            <li class="footer__li">
+              <a
+                href="https://www.netflix.com/es/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount"
+                class="footer__a"
+                title="Texto"
+                >Cuenta</a
+              >
+            </li>
+            <li class="footer__li">
+              <a
+                href="https://www.netflix.com/es/redeem"
+                class="footer__a"
+                title="Canjear tarjetas regalo"
+                >Canjear tarjetas regalo</a
+              >
+            </li>
+            <li class="footer__li">
+              <a
+                href="https://help.netflix.com/legal/privacy"
+                class="footer__a"
+                title="Privacidad"
+                >Privacidad</a
+              >
+            </li>
+            <li class="footer__li">
+              <a
+                href="https://fast.com/es/"
+                class="footer__a"
+                title="Prueba de velocidad"
+                >Prueba de velocidad</a
+              >
+            </li>
+          </ul>
+          <ul class="footer__ul">
+            <li class="footer__li">
+              <a
+                href="https://media.netflix.com/es_es/"
+                class="footer__a"
+                title="Zona de prensa"
+                >Zona de prensa</a
+              >
+            </li>
+            <li class="footer__li">
+              <a
+                href="https://www.netflix.com/gift-cards"
+                class="footer__a"
+                title="Comprar tarjetas regalo"
+                >Comprar tarjetas regalo</a
+              >
+            </li>
+            <li class="footer__li">
+              <a href="#" class="footer__a" title="Preferencias de cookies"
+                >Preferencias de cookies</a
+              >
+            </li>
+            <li class="footer__li">
+              <a
+                href="https://help.netflix.com/es-es/node/125888"
+                class="footer__a"
+                title="Garantía legal"
+                >Garantía legal</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer__select select">
+          <span class="fo select__span">Español</span>
+          <ul class="select__ul">
+            <li class="select__li">
+              <a class="select__a" href="#" title="Español">Español</a>
+            </li>
+            <li class="select__li">
+              <a class="select__a" href="#" title="English">English</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__fila">Raflix España</div>
+      </div>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+</html>
